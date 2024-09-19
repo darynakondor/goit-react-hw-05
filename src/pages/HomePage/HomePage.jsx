@@ -3,7 +3,7 @@ import style from './HomePage.module.css';
 
 function HomePage() {
   
-  return (
+  return  (
     <div className='container'>
       <h1 className={style.title}>Popular movies</h1>
       <MovieList/>
