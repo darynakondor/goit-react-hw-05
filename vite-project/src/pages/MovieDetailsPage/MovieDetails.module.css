@@ -1,0 +1,33 @@
+.flexContainer, .listLinks {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+}
+.img {
+    height: 50vh;
+}
+.title {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+p {
+    margin-bottom: 20px;
+    font-size: 22px;
+    line-height: 1.5;
+}
+.userScore, .titleOverview, .titleGenres, .additionalInfo {
+    font-weight: 700;
+}
+.additional {
+    margin-bottom: 50px;
+}
+.btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(22, 22, 196);
+    padding: 10px 0;
+    width: 150px;
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+}

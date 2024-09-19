@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 22px;
+}
+
+a {
+  color:rgb(9, 9, 226);
+}
+a:hover {
+  color:rgb(86, 86, 237);
+}
+a, button {
+  transition: .3s;
+}
+img {
+  height: auto;
+  display: block;
+}
+
+.container {
+  max-width: 1440px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+}
+.flex {
+  display: flex;
+}
+button {
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  opacity: 0.7;
+}
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;     
+  color: #666666;          
+}
