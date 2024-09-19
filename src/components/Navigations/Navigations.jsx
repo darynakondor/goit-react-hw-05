@@ -1,11 +1,11 @@
-import style from './Header.module.css';
+import style from './Navigations.module.css';
 import clsx from 'clsx';
 import { NavLink } from "react-router-dom";
 
 const buildLinkClass = ({ isActive }) => {
     return clsx(style.link, isActive && style.active);
 };
-function Header() {
+function Navigations() {
   return (
     <header className={style.header}>
         <div className="container">
@@ -22,4 +22,4 @@ function Header() {
   )
 }
 
-export default Header
+export default Navigations

@@ -1,7 +1,7 @@
 import { Routes, Route, useLocation, Navigate } from "react-router-dom";
 import style from './App.module.css';
-import Header from './components/Header/Header';
 import { lazy, Suspense } from 'react';
+import Navigations from "./components/Navigations/Navigations";
 
 const HomePage = lazy(() => import('./pages/HomePage/HomePage'));
 const MoviesPage = lazy(() => import('./pages/MoviesPage/MoviesPage'));
@@ -17,7 +17,7 @@ function App() {
   const isNotFoundPage =  location.pathname === "/not-found";
   return (
     <>
-      {!isNotFoundPage && <Header />}
+      {!isNotFoundPage && <Navigations />}
       <main className={style.main}>
         <Suspense fallback={<div>Loading...</div>}>
           <Routes>
