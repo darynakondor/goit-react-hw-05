@@ -14,7 +14,7 @@ function App() {
 
   const location = useLocation();
 
-  const isNotFoundPage = location.pathname === "/not-found";
+  const isNotFoundPage =  location.pathname === "/not-found";
   return (
     <>
       {!isNotFoundPage && <Header />}
